@@ -18,7 +18,7 @@ mvn eclipse:eclipse -Dwtpversion=2.0
 -- Table structure for table `STUDENT`
 --
 
-CREATE TABLE `STUDENT` (
+CREATE TABLE `student` (
   `id` int(11) NOT NULL,
   `name` text NOT NULL,
   `entering_date` date NOT NULL,
